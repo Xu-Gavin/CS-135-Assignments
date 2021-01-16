@@ -43,7 +43,7 @@
 (define (largest numbers)
   (cond [(empty? numbers) empty]
         [(empty? (rest numbers)) (first numbers)]
-        [(> (first numbers) (largest (rest numbers))) (first numbers)]
+        [(> (first numbers) (max (rest numbers))) (first numbers)]
         [else (largest (rest numbers))]))
 
 ;; Tests
