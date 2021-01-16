@@ -11,4 +11,6 @@ I always want to improve the efficiency of my code so if you think you can impro
 
 Furthermore, all my code is written in DrRacket.
 
-In terms of uploading, I will not upload all my assignments at once, I will upload them on a daily basis because I myself would like to review all the uploads and see whether I need to change some things or what not.
+In terms of uploading, I will not upload all my assignments at once, I will upload them on occasionally because I myself would like to review all the uploads and see whether I need to change some things or what not.
+
+Furthermore, NOT ALL ASSIGNMENT CODE IS UPLOADED. In fact, I won't be uploading a good portion of my code that I find unimportant or uninteresting.
