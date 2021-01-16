@@ -9,6 +9,9 @@
 ;;---------------------------
 ;;
 
+;; a (ne-lst of X) is a (lstof X)
+;;   requires: (lstof X) to be non-empty
+
 ;; (mean-relative lst) produces a list of symbols 'below-mean, 'above-mean,
 ;;   'mean acording ot the inputs given.
 ;; Examples:
