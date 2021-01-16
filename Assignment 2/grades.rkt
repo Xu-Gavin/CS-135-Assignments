@@ -23,7 +23,7 @@
 (check-expect (cs135-grade 0.8 0.6 0.4 0.9 0.95) 68.3)
 (check-expect (cs135-grade 0.8 0.6 0.4 0.9 0) 46)
 
-;; cs135-grade: Num Num Num Num Num -> Num (NOT SURE IF THIS IS RIGHT, CHECK)
+;; cs135-grade: Num Num Num Num Num -> Num
 (define (cs135-grade sc assign mid-1 mid-2 final)
   (cond [(or (< final failing-grade) (< assign failing-grade))
          (cond [(< (normal_calc sc assign mid-1 mid-2 final) 46)
